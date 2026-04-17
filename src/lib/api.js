@@ -2,7 +2,7 @@ import axios from 'axios';
 import { getToken } from './auth';
 
 const api = axios.create({
-  baseURL: 'https://revv-production-ffa9.up.railway.app/api',
+  baseURL: process.env.EXPO_PUBLIC_API_URL,
   timeout: 20000,
 });
 
