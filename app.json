@@ -5,8 +5,27 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "splash": { "backgroundColor": "#000000" },
-    "ios": { "bundleIdentifier": "com.zordon.revv", "buildNumber": "1", "supportsTablet": false },
-    "android": { "package": "com.zordon.revv", "versionCode": 1 }
+    "splash": {
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "bundleIdentifier": "com.zordon.revv",
+      "buildNumber": "1",
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.zordon.revv",
+      "versionCode": 1
+    },
+    "plugins": [
+      [
+        "sentry-expo",
+        {
+          "organization": "BRYAN_TO_FILL_IN",
+          "project": "revv-mobile",
+          "authToken": null
+        }
+      ]
+    ]
   }
 }
